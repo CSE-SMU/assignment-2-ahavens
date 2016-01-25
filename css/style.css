@@ -1,0 +1,186 @@
+/*Aurora Havens CSS */
+/* I would have preferred a frowning face */
+
+.center {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.face
+{
+
+	width: 200px;
+	height: 250px;
+	background-color: #FAD6CA;
+
+	border-radius: 110px;
+
+	
+
+}
+
+.eyes
+{
+	width: 200px;
+	height: 50px;
+
+	
+}
+
+.eye
+{
+	width: 50px;
+	height: 50px;
+	background: white;
+	border-radius:100%;
+
+	float: left;
+	margin: 0 0 0 33px;
+
+}
+
+.eye:after
+{
+	content:'\2022';
+	display: block;
+
+	width: 25px;
+	height: 25px;
+	background: blue;
+	border-radius: 100%;
+
+	font-size: 30px;
+	text-align: center;
+	float: left;
+	margin: 13px 0 0 12px;
+
+
+}
+
+.eye:before
+{
+	content:"";
+	display: block;
+
+	width: 50px;
+	height: 10px;
+	background: #FAD6CA;
+	border-radius: 30%;
+	border-top: 2px solid black;
+
+	margin: -12px 0 0 0;
+}
+
+.nose
+{
+	width:20px;
+	height: 60px;
+	border-radius: 100%;
+	margin-top: 15px;
+}
+
+.nose:before
+{
+	content:"";
+	display: block;
+	width: 20px;
+	height: 60px;
+	background: #D4A190;
+	border-radius: 100%;
+
+	margin-top: 10%;
+
+}
+.nose:after
+{
+	content:'\2022  \2022';
+	display: block;
+	width: 40px;
+	height: 20px;
+	background:#D4A190;
+	border-radius: 50%;
+	margin-top: -50%;
+	margin-left: -45%;
+
+	text-align: center;
+	font-size: 30px;
+}
+
+.mouth
+{
+	width: 100px;
+	height: 20px;
+
+	overflow: hidden;
+	margin-top: 80px;
+	margin-left: 15px;
+
+}
+
+.mouth:before
+{
+	content:"";
+	display: block;
+
+
+	width: 70px;
+	height: 30px;
+	border-radius: 100%;
+	background: black;
+
+	margin-top: -10%;
+}
+
+.mouth:after
+{
+	content:"";
+	display: block;
+
+	width: 30px;
+	height: 30px;
+	border-radius: 100%;
+	background: red;
+
+	margin-top: -13%;
+	margin-left: 20%;
+	
+}
+
+.hair
+{
+	width: 200px;
+	height: 80px;
+
+	overflow: hidden;
+	
+	
+
+}
+
+.hair:before
+{
+	content:"";
+	display: block;
+	width: 200px;
+	height: 200px;
+	border-radius: 100%;
+	background: #33BBE8;
+	margin-top: 0%;
+}
+
+.hair:after
+{
+	content: "";
+	display: block;
+	width: 0px;
+	height: 0px;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+
+	border-bottom: 20px solid #FAD6CA;
+	margin-top: -70%;
+	margin-left: 70%;
+}
+
